@@ -181,7 +181,9 @@ ul {
 
 .image {
   width: 100%;
-  margin-top: 17px;
+  margin: 17px auto 0;
+  max-width: 700px;
+  display: block;
 }
 
 h2.caption {
@@ -204,18 +206,23 @@ h2.caption {
   color: #0070c9;
 }
 
+.box {
+  margin: 0 auto;
+  max-width: 500px;
+}
+
 .step {
   margin-top: 13px;
 }
 
 .btn-wrapper {
-  margin-top: 17px;
   max-width: 250px;
   max-height: 120px;
   display: flex;
   padding: 15px;
   border-radius: 5px;
   background: #111111;
+  margin: 17px auto 0;
 }
 
 @media screen and (max-width: 480px){
